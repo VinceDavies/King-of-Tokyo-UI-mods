@@ -1,0 +1,53 @@
+//Here are the css changes required to hone the UI to be as legible as possible:
+
+//increase the size of power-up cards:
+#visible-cards{
+    transform: scale(1.2);
+}
+//increase the size of the fonts of cards
+.description-wrapper{
+    transform: scale(1.05);
+}
+//reduce size of KoT board
+#board{
+    transform: scale(.9);
+}
+//reduce size of deck image which isn't essential
+#deck{
+    transform: scale(.85);
+}
+//remove redundant figurine from board
+.monster-board-figure-wrapper{
+    display: none;
+}
+//increase size of everything on the table and recenter it so there are no wasted empty spaces
+#table{
+    transform: scale(1.2);
+    margin-left:-300px;
+}
+
+
+//delete the remaining components under the game which are not essential for gameplay
+#maingameview_menufooter{
+    display:none;
+}
+
+.palmares_details{
+    display:none;
+}
+
+.gameranking{
+    display:none;
+}
+
+.pagesection-reduced_width{
+    display:none;
+}
+
+.col-md-6{
+    display:none;
+}
+
+#overall-footer{
+    display:none;
+}
